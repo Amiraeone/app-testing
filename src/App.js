@@ -1,11 +1,13 @@
 import Counter from "./Counter";
+import Todo from "./Todo";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Todo/>
+        <hr />
         <Counter />
-
 
         <p>
           Edit <code>src/App.js</code> and save to reload.
