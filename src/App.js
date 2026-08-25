@@ -1,11 +1,14 @@
 import Counter from "./Counter";
+import Post from "./Post";
 import Todo from "./Todo";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Todo/>
+        <Post />
+        <hr />
+        <Todo />
         <hr />
         <Counter />
 
